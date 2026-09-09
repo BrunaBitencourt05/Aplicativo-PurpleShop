@@ -1,26 +1,34 @@
-# README for Untitled Project #
+# 🛒 Mini Sistema de Lista de Compras em Python
 
-This is the README file for the Untitled Project app. It's a great place to write
-down some notes about how your app works. For starters, here is some information
-about the other files in this folder.
+Um mini sistema de gerenciamento de lista de compras interativo desenvolvido em Python. O projeto permite adicionar, visualizar, marcar como comprado e remover itens da lista de forma simples via terminal, mantendo os dados salvos em um arquivo CSV (**persistência de dados**).
 
-The files in this folder contain everything you need to run your app:
+---
 
-* `applab/applab.js` - This file contains the applab library, which has all the
-  javascript that applab uses to run your app.
+## 📌 Funcionalidades
 
-* `applab/applab.css` - This file contains some default CSS styling for your app.
+* ➕ **Adicionar itens:** Adiciona novos produtos à sua lista de compras.
+* 👁️ **Visualizar lista:** Exibe todos os itens cadastrados com status visual de pendente `[ ]` ou concluído `[✓]`.
+* M **Marcar como comprado:** Altera o status do item na lista para comprado.
+* 🗑️ **Remover itens:** Exclui um item da lista pelo número de índice.
+* 💾 **Persistência em CSV:** Todas as alterações são salvas e carregadas automaticamente no arquivo `lista_compras.csv`.
 
-* `index.html` - This is the html file that you designed in applab using the
-  Design tab. It contains all the buttons, text inputs, and other controls for
-  your app. Go here to add additional controls to your app.
+---
 
-* `style.css` - This file defines the custom styling for each control in your
-  app that you specified under the Design tab. Go here to change the colors,
-  positions, dimensions, and other properties of your app's controls.
+## 🛠️ Tecnologias Utilizadas
 
-* `code.js` - This file has all the code you wrote for your app. Go here to add
-  new behavior to your app.
+* **Python 3** (Lógica principal do sistema)
+* **Biblioteca `csv`** (Nativa do Python, usada para salvar e carregar os dados)
+* **Pandas** (Usada para análise e visualização rápida dos dados no ambiente de desenvolvimento)
 
-* `assets` - This is a directory with all the asset files (pictures and sounds)
-  that you uploaded in applab.
+---
+
+## 🚀 Como Executar o Projeto
+
+### Pré-requisitos
+* Python 3 instalado ou acesso ao [Google Colab](https://colab.research.google.com/).
+* Arquivo `lista_compras.csv` no mesmo diretório ou na pasta `/content/` no Colab.
+
+### Passo a passo
+1. Clone este repositório:
+   ```bash
+   git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
